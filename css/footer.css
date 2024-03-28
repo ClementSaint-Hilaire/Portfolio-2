@@ -1,0 +1,88 @@
+@import url('satoshi.css');
+*:root {
+    --deepnoir : #000;
+    --noir: #1D1D1F;
+    --gris: #75757A;
+    --blanc1: #F5F5F7;
+    --blanc2: #FAFAFA;
+    --orange : #FF9F0A;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--deepnoir);
+    font-family: 'Satoshi-Medium';
+}
+body {
+    overflow-x: hidden;
+}
+
+.footer_container {
+    width: 100vw;
+    border-top: solid 1px var(--gris);
+    padding: 0px 50px;
+}
+.content {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo_and_links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.links_and_sn {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.links h1,
+.sn h1 {
+    font-size: 1.2rem;
+    color: var(--blanc1);
+    font-family: 'Satoshi-Medium';
+    background: transparent;
+    margin-bottom: 20px;
+}
+.links a,
+.sn a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--blanc1);
+    font-family: 'Satoshi-Regular';
+    background: transparent;
+    margin-bottom: 15px;
+}
+.sn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.credits {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+}
+.credits h1,
+.credits h2 {
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: var(--gris);
+    font-family: 'Satoshi-Regular';
+    background: transparent;
+    margin-bottom: 10px;
+}
+.credits h2 {
+    letter-spacing: 4px;
+}

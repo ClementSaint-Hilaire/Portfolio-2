@@ -43,6 +43,24 @@ body {
     font-family: 'Satoshi-Light';
     font-size: 1.5rem;
 }
+.content_left a::after,
+.content_right::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--blanc1);
+    transform: scale(0,1);
+    transform-origin: 0% 100%;
+    transition: transform 0.3s ease-in-out;
+}
+.content_left a:hover::after,
+.content_right:hover::after {
+    transform: scale(1,1);
+}
+
 .new {
     position: relative;
     display: flex;

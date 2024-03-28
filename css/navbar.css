@@ -5,6 +5,7 @@
     --gris: #75757A;
     --blanc1: #F5F5F7;
     --blanc2: #FAFAFA;
+    --orange : #FF9F0A;
 }
 *{
     padding: 0;
@@ -40,7 +41,21 @@ body {
     background: transparent;
     color: var(--blanc1);
     font-family: 'Satoshi-Light';
-    font-size: 25px;
+    font-size: 1.5rem;
+}
+.new {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.new h1 {
+    font-size: 0.5rem;
+    color: var(--orange);
+    font-family: 'Satoshi-Variable';
+    position: absolute;
+    top: -4px;
+    left: 2px;
 }
 .content_right {
     position: relative;
@@ -48,5 +63,5 @@ body {
     background: transparent;
     color: var(--blanc1);
     font-family: 'Satoshi-Light';
-    font-size: 25px;
+    font-size: 1.5rem;
 }

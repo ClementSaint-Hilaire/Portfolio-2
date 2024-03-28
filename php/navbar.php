@@ -16,7 +16,10 @@
         <a href="#">HOME</a>
         <a href="#">CREATIONS</a>
         <a href="#">ABOUT</a>
-        <a href="#" target="_blank">CARDS</a>
+        <div class="new">
+            <h1>NEW</h1>
+            <a href="#" target="_blank">CARDS</a>
+        </div>
     </div>
     <a href="#" class="content_right">CONTACT</a>
 </section>

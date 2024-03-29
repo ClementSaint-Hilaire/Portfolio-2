@@ -25,6 +25,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 60px auto 0 auto;
     overflow: hidden;
@@ -64,4 +65,22 @@ body {
 }
 .text_container.active {
     transform: translateX(-50%) translateY(0);
+}
+
+/*responsive*/
+
+@media screen and (min-width: 1440pt) {
+    
+}
+@media screen and (min-width: 1024pt) {
+    
+}
+@media screen and (min-width: 768pt) {
+    
+}
+@media screen and (min-width: 480pt) {
+    
+}
+@media screen and (min-width: 375pt) {
+    
 }

@@ -30,6 +30,8 @@
             <h1>ENSEMBLE, </br>CRÉONS</h1>
         </div>
     </section>
+
+    <?php include 'creations.php'; ?>
 </body>
 <script src="../js/homepage.js"></script>
 </html>

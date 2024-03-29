@@ -17,3 +17,19 @@
 body {
     overflow-x: hidden;
 }
+
+@media screen and (min-width: 1440pt) {
+    
+}
+@media screen and (min-width: 1024pt) {
+    
+}
+@media screen and (min-width: 768pt) {
+    
+}
+@media screen and (min-width: 480pt) {
+    
+}
+@media screen and (min-width: 375pt) {
+    
+}

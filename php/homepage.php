@@ -34,6 +34,10 @@
     <?php include_once './creations.php'; ?>
     <?php include_once './tools.php'; ?>
 
+    <section class="slogan">
+        <img src="../img/text.png" alt="slogan">
+    </section>
+
 </body>
 <script src="../js/homepage.js"></script>
 </html>

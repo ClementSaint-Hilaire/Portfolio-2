@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 60px auto 0 auto;
+    margin: 150px auto 250px auto;
     overflow: hidden;
 }
 .titre_container svg {

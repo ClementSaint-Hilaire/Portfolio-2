@@ -31,7 +31,7 @@
                         <a href="https://www.figma.com/@cshd" target="_blank">Figma</a>
                         <a href="https://www.linkedin.com/in/clément-saint-hilaire-01412a282" target="_blank">Linkedin</a>
                         <a href="https://github.com/ClementSaint-Hilaire" target="_blank">Github</a>
-                        <a href="#" target="_blank">Mail</a>
+                        <a href="#contact">Mail</a>
                     </div>
                 </div>
             </div>

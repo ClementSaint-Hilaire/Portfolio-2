@@ -31,7 +31,8 @@
         </div>
     </section>
 
-    <?php include 'creations.php'; ?>
+    <?php include_once './creations.php'; ?>
+
 </body>
 <script src="../js/homepage.js"></script>
 </html>

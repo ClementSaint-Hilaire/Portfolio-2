@@ -30,5 +30,10 @@
             <h1>ENSEMBLE, </br>CRÉONS</h1>
         </div>
     </section>
+
+    <?php include_once './creations.php'; ?>
+    <?php include_once './tools.php'; ?>
+
 </body>
+<script src="../js/homepage.js"></script>
 </html>

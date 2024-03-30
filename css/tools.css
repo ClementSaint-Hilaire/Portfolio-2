@@ -18,18 +18,17 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (min-width: 1440pt) {
-    
+.tools_container {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
-@media screen and (min-width: 1024pt) {
-    
-}
-@media screen and (min-width: 768pt) {
-    
-}
-@media screen and (min-width: 480pt) {
-    
-}
-@media screen and (min-width: 375pt) {
-    
+.tools_container img {
+    position: relative;
+    margin: 200px auto;
+    width: 100vw;
+    height: auto;
 }

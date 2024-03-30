@@ -1,0 +1,34 @@
+@import url('satoshi.css');
+*:root {
+    --deepnoir : #000;
+    --noir: #1D1D1F;
+    --gris: #75757A;
+    --blanc1: #F5F5F7;
+    --blanc2: #FAFAFA;
+    --orange : #FF9F0A;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--deepnoir);
+    font-family: 'Satoshi-Medium';
+}
+body {
+    overflow-x: hidden;
+}
+
+.tools_container {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.tools_container img {
+    position: relative;
+    margin: 200px auto;
+    width: 100vw;
+    height: auto;
+}

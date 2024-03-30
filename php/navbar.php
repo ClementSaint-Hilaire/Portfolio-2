@@ -14,12 +14,12 @@
 <section class="navbar_container">
     <div class="content_left">
         <a href="#">HOME</a>
-        <a href="#">CREATIONS</a>
-        <a href="#">ABOUT</a>
+        <a href="#creations">CREATIONS</a>
+        <a href="#about">ABOUT</a>
         <div class="new">
             <h1>NEW</h1>
             <a href="#" target="_blank">CARDS</a>
         </div>
     </div>
-    <a href="#" class="content_right">CONTACT</a>
+    <a href="#contact" class="content_right">CONTACT</a>
 </section>

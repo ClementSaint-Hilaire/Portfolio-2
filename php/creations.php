@@ -8,7 +8,7 @@
     <title>csh</title>
 </head>
 <body>
-    <section class="creation_container">
+    <section class="creation_container" id="creations">
          
     <?php
     include '../config/database.php';

@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<section class="tools_container">
+<section class="tools_container" id="about">
     <img src="../img/tools.png" alt="tools">
 
     <div class="bouton_my_apps_container">

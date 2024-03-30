@@ -9,8 +9,8 @@
 </head>
 <body>
 
-<section class="contact_container">
-        <h1>Entrons en contact</h1>
+<section class="contact_container" >
+        <h1 id="contact">Entrons en contact</h1>
 
         <section class="contact">
             <form action="../configuration/mailer.php" method="post" class="formulaireDeContact" id="contactForm">

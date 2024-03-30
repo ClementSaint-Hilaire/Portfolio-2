@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var message = document.getElementById('message').value.trim();
 
         if (email !== '' && nom !== '' && sujet !== '' && message !== '') {
-            // Tous les champs sont remplis, donc on exécute le script pour cacher la section de contact et afficher la section message_send
             message_send.style.display = 'flex';
             event.preventDefault(); // Empêche l'envoi du formulaire
         } else {

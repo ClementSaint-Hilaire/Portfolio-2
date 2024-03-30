@@ -20,6 +20,7 @@ body {
 
 .tools_container {
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: auto;
     justify-content: center;
@@ -29,6 +30,110 @@ body {
 .tools_container img {
     position: relative;
     margin: 200px auto;
-    width: 100vw;
+    width: 100%;
     height: auto;
+}
+.bouton_my_apps_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.bouton_apps {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 200px;
+    border: 2px solid var(--gris);
+    background-color: var(--deepnoir);
+    border-radius: 69px;
+    width: 440px;
+    height: 100px;
+    cursor: pointer;
+}
+.bouton_apps h1 {
+    position: relative;
+    color: var(--gris);
+    font-size: 35px;
+    font-family: 'Satoshi-Medium';
+    margin-right: 30px;
+}
+.bouton_apps svg {
+    position: relative;
+}
+.bouton_apps_close {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 70px;
+    border: none;
+    background-color: var(--deepnoir);
+    border-radius: 69px;
+    width: 440px;
+    height: 100px;
+    cursor: pointer;
+}
+.bouton_apps_close h1 {
+    position: relative;
+    color: var(--gris);
+    font-size: 35px;
+    font-family: 'Satoshi-Medium';
+    margin-right: 30px;
+}
+.bouton_apps_close svg {
+    position: relative;
+}
+.apps_container {
+    display: none;
+    flex-direction: column;
+    border: 2px solid var(--gris);
+}
+.app_cards_container {
+    display: flex;
+    max-width: 100vw;
+    overflow-y: scroll;
+    padding-bottom: 70px;
+}
+.appCard {
+    position: relative;
+    min-width: 300px;
+    max-width: 300px;
+    height: 500px;
+    background-color: var(--noir);
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 70px;
+    padding: 40px 30px;
+}
+.appCard h1 {
+    text-transform: uppercase;
+    color: var(--gris);
+    background: transparent;
+    font-family: 'Satoshi-Light';
+    font-size: 10px;
+}
+.appCard h2 {
+    color: var(--blanc1);
+    background: transparent;
+    font-family: 'Satoshi-Regular';
+    font-size: 21px;
+}
+.appCard img {
+    width: 139px;
+    height: 129px;
+    margin: 30px auto 50px auto;
+    background: transparent;
+}
+.appCard h3 {
+    color: var(--blanc1);
+    background: transparent;
+    font-family: 'Satoshi-Light';
+    font-size: 12px;
 }

@@ -17,11 +17,12 @@
     if ($query->execute()) {
         $query->bindColumn('id', $id);
         $query->bindColumn('img', $img);
+        $query->bindColumn('link', $link);
         $query->bindColumn('titre', $titre);
                     
         while ($query->fetch(PDO::FETCH_BOUND)) {
         
-            echo '<a class="cards" href="">';
+            echo '<a class="cards" href="' . htmlspecialchars($link) . '">';
                 echo '<img src="' . htmlspecialchars($img) . '">';
                 echo '<div class="titre">';
                     echo '<h1>' . htmlspecialchars($titre) . '</h1>';

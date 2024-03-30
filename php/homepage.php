@@ -38,6 +38,8 @@
         <img src="../img/text.png" alt="slogan">
     </section>
 
+    <?php include_once './contact.php'; ?>
+
 </body>
 <script src="../js/homepage.js"></script>
 </html>

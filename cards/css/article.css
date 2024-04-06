@@ -1,0 +1,144 @@
+@import url('satoshi.css');
+*:root {
+    --text-noir: #1D1D1F;
+    --text-gris: #75757A;
+    --fond-blanc: #F5F5F7;
+    --fond-articles: #FAFAFA;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--fond-blanc);
+    font-family: 'Satoshi-Medium';
+}
+
+.article_container {
+    width: 100vw;
+    max-width: 1700px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.article {
+    width: 60%;
+    max-width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: left;
+}
+.article h1 {
+    color: var(--text-gris);
+    font-weight: lighter;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.article h2 {
+    color: var(--text-noir);
+    font-weight: normal;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center; 
+    margin-bottom: 30px;
+}
+.article h3 {
+    color: var(--text-gris);
+    font-family: 'Satoshi-Light';
+    font-size: 20px;
+}
+.article img {
+    min-width: 700px;
+    max-width: 700px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+.textbold {
+    font-family: 'Satoshi-Bold';
+}
+.textitalic {
+    font-family: 'Satoshi-LightItalic';
+}
+.textTitre {
+    font-family: 'Satoshi-Bold';
+    color: var(--text-noir);
+    font-size: 25px;
+}
+.article a {
+    color: var(--text-gris);
+    text-decoration: underline;
+    font-family: 'Satoshi-Light';
+}
+.ligne {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: var(--text-noir);
+    margin: 50px 0;
+}
+.retour {
+    content: ' ';
+    height: 15px;
+    width: 100%;
+    background: transparent;
+}
+.callout {
+    background-color: #FAFAFA;
+    color: var(--text-gris);
+    font-family: 'Satoshi-Light';
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.callout a {
+    background: transparent;
+}
+.boutons {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.boutons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.boutons a h1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text-gris);
+    margin: 0 15px;
+    font-family: 'Satoshi-Light';
+    font-size: 20px;
+}
+
+/*---------------RESPONSIVE---------------*/
+
+
+@media screen and (max-width: 768px) { 
+    .article {
+        width: 90%;
+    }
+    .article h2 {
+        font-size: 30px;
+    }
+    .article h3 {
+       font-size: 17px; 
+    }
+    .article img {
+        max-width: 100%;
+        min-width: 350px;
+        border-radius: 9px;
+    }
+}
+@media screen and (max-width: 1215px) and (min-width: 768px) { 
+    .article img {
+        max-width: 100%;
+        min-width: 350px;
+    }
+}

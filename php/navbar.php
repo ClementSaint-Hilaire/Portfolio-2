@@ -17,7 +17,7 @@
             <a href="/studio/index.php">STUDIO</a>
             <div class="new">
                 <h1>NEW</h1>
-                <a href="#" target="_blank">CARDS</a>
+                <a href="/cards/php/accueil.php" target="_blank">CARDS</a>
             </div>
         </div>
         <div class="content_right">

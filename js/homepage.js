@@ -12,16 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     links.forEach(function(link) {
         link.addEventListener('click', function(e) {
-            e.preventDefault(); // Empêcher le comportement par défaut du lien
+            if (this.getAttribute('href').startsWith('#')) {
+                e.preventDefault(); 
 
-            var targetId = this.getAttribute('href').substring(1); // Supprimer le caractère '#' du début
+                var targetId = this.getAttribute('href').substring(1); 
 
-            var targetElement = document.getElementById(targetId);
+                var targetElement = document.getElementById(targetId);
 
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth'
-                });
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
             }
         });
     });

@@ -16,6 +16,7 @@
         <a href="#">HOME</a>
         <a href="#creations">CREATIONS</a>
         <a href="#about">ABOUT</a>
+        <a href="/studio/index.php">STUDIO</a>
         <div class="new">
             <h1>NEW</h1>
             <a href="#" target="_blank">CARDS</a>

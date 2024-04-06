@@ -11,7 +11,7 @@
 
     <section class="navbar_container">
         <div class="content_left">
-            <a href="#">HOME</a>
+            <a href="#home">HOME</a>
             <a href="#creations">CREATIONS</a>
             <a href="#about">ABOUT</a>
             <a href="/studio/index.php">STUDIO</a>
@@ -22,7 +22,7 @@
         </div>
         <div class="content_right">
             <a href="#contact">CONTACT</a>
-            <button class="menu">
+            <button class="menu" id="topButton">
                 <svg width="28" height="14" viewBox="0 0 28 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.238098" y="0.9375" width="27" height="3" rx="1.5" fill="#FAFAFA"/>
                     <rect x="12.2381" y="10.0625" width="15" height="3" rx="1.5" fill="#FAFAFA"/>

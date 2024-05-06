@@ -1,0 +1,59 @@
+@import url('satoshi.css');
+*:root {
+    --text-noir: #1D1D1F;
+    --text-gris: #75757A;
+    --fond-blanc: #F5F5F7;
+    --fond-articles: #FAFAFA;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--fond-blanc);
+    font-family: 'Satoshi-Medium';
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.hardware,
+.software {
+    position: relative;
+    color: var(--text-noir);
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.hardware h1,
+.software h1 {
+    color: var(--text-noir);
+    font-size: 25px;
+    font-family: 'Satoshi-Light';
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.hardware img,
+.software img {
+ position: relative;
+ width: 100%;
+ margin-bottom: 50px;
+}
+.img_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) { 
+    .img_mobile {
+        display: flex !important;
+    }
+    .hardware img,
+    .software img {
+        display: none;
+    }
+}

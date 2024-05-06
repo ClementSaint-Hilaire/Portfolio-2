@@ -138,3 +138,32 @@ body {
     font-family: 'Satoshi-Light';
     font-size: 12px;
 }
+
+
+@media screen and (min-width: 1440pt) {
+    
+}
+@media screen and (min-width: 1024pt) {
+    
+}
+@media screen and (min-width: 768px) {
+    .bouton_apps {
+        width: 280px;
+    }
+}
+@media screen and (min-width: 480px) {
+    .bouton_apps {
+        width: 280px;
+    }
+    #contact {
+        font-size: 2.75rem !important;
+    }
+}
+@media screen and (min-width: 375px) {
+    .bouton_apps {
+        width: 280px;
+    }
+    #contact {
+        font-size: 2.75rem !important;
+    }
+}

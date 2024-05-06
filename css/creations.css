@@ -73,3 +73,7 @@ body {
     overflow: hidden;
     background: transparent;
 }
+#creations {
+    scroll-behavior: smooth; 
+}
+

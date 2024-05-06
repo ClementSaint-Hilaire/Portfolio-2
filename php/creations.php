@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../img/logo.png" />
     <link rel="stylesheet" href="../css/creations.css">
+    <link rel="stylesheet" href="../css/screen.css">
     <title>csh</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
                     
         while ($query->fetch(PDO::FETCH_BOUND)) {
         
-            echo '<a class="cards" href="' . htmlspecialchars($link) . '">';
+            echo '<a class="cards reveal" href="' . htmlspecialchars($link) . '">';
                 echo '<img src="' . htmlspecialchars($img) . '">';
                 echo '<div class="titre">';
                     echo '<h1>' . htmlspecialchars($titre) . '</h1>';

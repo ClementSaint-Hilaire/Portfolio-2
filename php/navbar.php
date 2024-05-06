@@ -12,7 +12,7 @@
 </html>
 <section class="navbar_container">
     <div class="content_left">
-        <a href="#">HOME</a>
+        <a href="https://clementsainthilaire.fr">HOME</a>
         <a href="#creations">CREATIONS</a>
         <a href="#about">ABOUT</a>
         <a href="studio.php">STUDIO</a>

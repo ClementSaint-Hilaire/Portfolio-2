@@ -118,13 +118,13 @@ body {
     color: var(--gris);
     background: transparent;
     font-family: 'Satoshi-Light';
-    font-size: 10px;
+    font-size: 0.8rem;
 }
 .appCard h2 {
     color: var(--blanc1);
     background: transparent;
     font-family: 'Satoshi-Regular';
-    font-size: 21px;
+    font-size: 2rem;
 }
 .appCard img {
     width: 139px;
@@ -136,7 +136,9 @@ body {
     color: var(--blanc1);
     background: transparent;
     font-family: 'Satoshi-Light';
-    font-size: 12px;
+    font-size: 0.75rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 

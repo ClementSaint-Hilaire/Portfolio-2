@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/homepage.css">
     <title>csh</title>
 </head>
-<body >
+<body>
     <?php include_once './navbar.php'; ?>
 
     <section class="titre_container" >

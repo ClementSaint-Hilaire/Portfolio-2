@@ -12,13 +12,14 @@
          
     <?php
     include '../config/database.php';
-    $query = $db->prepare("SELECT * FROM cards");
+    $query = $db->prepare("SELECT * FROM cards ORDER BY ordre ASC");
 
     if ($query->execute()) {
         $query->bindColumn('id', $id);
         $query->bindColumn('img', $img);
         $query->bindColumn('link', $link);
         $query->bindColumn('titre', $titre);
+        $query->bindColumn('ordre', $ordre);
                     
         while ($query->fetch(PDO::FETCH_BOUND)) {
         

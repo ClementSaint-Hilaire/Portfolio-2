@@ -77,3 +77,31 @@ body {
     scroll-behavior: smooth; 
 }
 
+/*responsive*/
+
+@media screen and (min-width: 1440px) {
+    
+}
+@media screen and (min-width: 1024px) {
+    
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+    .creation_container {
+        padding: 8px;
+    }
+    .cards {
+        border-radius: 16px;
+        padding: 8px;
+        height: 1000px;
+    }
+    .cards img {
+        height: 540px;
+        max-height: 540px;
+    }
+}
+@media screen and (max-width: 375px) {
+
+}
